@@ -10,7 +10,7 @@ python diffnet-tf.py < SAMPL8-manyligs-onercpt.csv
 ## Extended case: Many Ligands, Many Receptors
 
 ```
-python diffnet-tf.py < SAMPL8-manyligs-onercpt-alldata.csv
+python diffnet-tf.py < SAMPL8-manyligs-manyrcpts-alldata.csv
 ```
 
 ## Binding Selectivity Analysis with Swapping Free Energies
