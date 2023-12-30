@@ -1,0 +1,20 @@
+transid,DGb,DGberr,minsample,maxsample,optimize
+#all energy values in kcal/mol
+#Absolute
+temoa:g1|:,  -6.65,0.16,300,1000,F
+temoa:g2p|:,-12.10,0.13,300,1000,T
+temoa:g3|:,  -8.80,0.16,300,1000,T
+temoa:g4|:,  -8.18,0.16,300,1000,T
+temoa:g5|:,  -7.97,0.16,300,1000,T
+#
+#Relative
+temoa:g1|temoa:g2p,  -5.08,0.16,300,1000,F
+temoa:g1|temoa:g3,   -1.73,0.15,300,1000,F
+temoa:g1|temoa:g4,   -1.85,0.14,300,1000,F
+temoa:g1|temoa:g5,   -1.40,0.14,300,1000,F
+temoa:g2p|temoa:g3,   3.30,0.16,300,1000,F
+temoa:g2p|temoa:g4,   3.05,0.16,300,1000,F
+temoa:g2p|temoa:g5,   3.50,0.16,300,1000,F
+temoa:g3|temoa:g4,   -0.12,0.14,300,1000,F
+temoa:g3|temoa:g5,   -0.04,0.14,300,1000,F
+temoa:g4|temoa:g5,    0.11,0.13,300,1000,F

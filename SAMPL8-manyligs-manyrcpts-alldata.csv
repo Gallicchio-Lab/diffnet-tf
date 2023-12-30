@@ -1,0 +1,55 @@
+transid,DGb,DGberr,minsample,maxsample,optimize
+#all energy values in kcal/mol
+#Absolute
+temoa:g1|:,  -6.65,0.16,300,1000,F
+temoa:g2p|:,-12.10,0.13,300,1000,T
+temoa:g3|:,  -8.80,0.16,300,1000,T
+temoa:g4|:,  -8.18,0.16,300,1000,T
+temoa:g5|:,  -7.97,0.16,300,1000,T
+teetoa:g1|:, -0.63,0.16,300,1000,T
+teetoa:g2p|:,-8.23,0.13,300,1000,T
+teetoa:g3|:, -1.96,0.16,300,1000,T
+teetoa:g4|:, -2.23,0.16,300,1000,T
+teetoa:g5|:, -2.64,0.16,300,1000,T
+#
+#
+#Hopping
+temoa:g1|teetoa:g1,  5.46,0.17,300,1000,F
+temoa:g2p|teetoa:g2p,3.93,0.12,300,1000,F
+temoa:g3|teetoa:g3,  6.21,0.16,300,1000,F
+temoa:g4|teetoa:g4,  5.51,0.16,300,1000,F
+temoa:g5|teetoa:g5,  5.25,0.16,300,1000,F
+#
+#Swapping (the sign is reversed relative to the raw simulation data)
+temoa:g1|teetoa:g2p,  1.27,0.15,300,1000,F
+temoa:g1|teetoa:g3,  -0.92,0.14,300,1000,F
+temoa:g1|teetoa:g4,  -0.63,0.13,300,1000,F
+temoa:g1|teetoa:g5,  -0.38,0.14,300,1001,F
+temoa:g2p|teetoa:g3, -2.30,0.16,300,1000,F
+temoa:g2p|teetoa:g4, -1.70,0.15,300,1005,F
+temoa:g2p|teetoa:g5, -1.18,0.15,300,1000,F
+temoa:g3|teetoa:g4,   0.57,0.13,300,1000,F
+temoa:g3|teetoa:g5,   1.21,0.12,300,1001,F
+temoa:g4|teetoa:g5,   0.48,0.11,300,1000,F
+#
+#Relative
+temoa:g1|temoa:g2p,  -5.08,0.16,300,1000,F
+temoa:g1|temoa:g3,   -1.73,0.15,300,1000,F
+temoa:g1|temoa:g4,   -1.85,0.14,300,1000,F
+temoa:g1|temoa:g5,   -1.40,0.14,300,1000,F
+temoa:g2p|temoa:g3,   3.30,0.16,300,1000,F
+temoa:g2p|temoa:g4,   3.05,0.16,300,1000,F
+temoa:g2p|temoa:g5,   3.50,0.16,300,1000,F
+temoa:g3|temoa:g4,   -0.12,0.14,300,1000,F
+temoa:g3|temoa:g5,   -0.04,0.14,300,1000,F
+temoa:g4|temoa:g5,    0.11,0.13,300,1000,F
+teetoa:g1|teetoa:g2p,-6.19,0.16,300,1000,F
+teetoa:g1|teetoa:g3, -0.48,0.15,300,1000,F
+teetoa:g1|teetoa:g4, -1.66,0.14,300,1000,F
+teetoa:g1|teetoa:g5, -1.62,0.15,300,1000,F
+teetoa:g2p|teetoa:g3, 5.45,0.16,300,1000,F
+teetoa:g2p|teetoa:g4, 4.86,0.16,300,1000,F
+teetoa:g2p|teetoa:g5, 4.69,0.16,300,1000,F
+teetoa:g3|teetoa:g4, -0.74,0.14,300,1000,F
+teetoa:g3|teetoa:g5, -0.83,0.14,300,1000,F
+teetoa:g4|teetoa:g5,  0.05,0.13,300,1000,F

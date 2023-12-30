@@ -1,0 +1,20 @@
+transid,DGb,DGberr,minsample,maxsample,optimize
+#all energy values in kcal/mol
+#Hopping
+temoa:g1|teetoa:g1,  5.46,0.17,300,1000,F
+temoa:g2p|teetoa:g2p,3.93,0.12,300,1000,T
+temoa:g3|teetoa:g3,  6.21,0.16,300,1000,T
+temoa:g4|teetoa:g4,  5.51,0.16,300,1000,T
+temoa:g5|teetoa:g5,  5.25,0.16,300,1000,T
+#
+#swapping
+temoa:g1|teetoa:g2p,  1.27,0.15,300,1000,F
+temoa:g1|teetoa:g3,  -0.92,0.14,300,1000,F
+temoa:g1|teetoa:g4,  -0.63,0.13,300,1000,F
+temoa:g1|teetoa:g5,  -0.38,0.14,300,1001,F
+temoa:g2p|teetoa:g3, -2.30,0.16,300,1000,F
+temoa:g2p|teetoa:g4, -1.70,0.15,300,1005,F
+temoa:g2p|teetoa:g5, -1.18,0.15,300,1000,F
+temoa:g3|teetoa:g4,   0.57,0.13,300,1000,F
+temoa:g3|teetoa:g5,   1.21,0.12,300,1001,F
+temoa:g4|teetoa:g5,   0.48,0.11,300,1000,F
